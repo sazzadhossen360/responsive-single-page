@@ -1,0 +1,150 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+/* =====================================start section style=================================================== */
+.gradient-overlay-wrapper{
+    background:url('./assets/img/android-mobile.jpg');
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.gradient-overlay-wrapper::after{
+    background: #0a1138;
+    background: -moz-linear-gradient(-45deg,  #0a1138 38%, #e82cd2 56%, #080f2b 74%, #080f2b 74%, #258dc8 100%, #080f2b 100%);
+    background: -webkit-linear-gradient(-45deg,  #0a1138 38%,#e82cd2 56%,#080f2b 74%,#080f2b 74%,#258dc8 100%,#080f2b 100%);
+    background: linear-gradient(135deg,  #0a1138 38%,#e82cd2 56%,#080f2b 74%,#080f2b 74%,#258dc8 100%,#080f2b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a1138', endColorstr='#080f2b',GradientType=1 );    
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 1.7;
+}
+.logo img {
+    max-width: 100px;
+    max-height: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-nav ul li {
+    display: inline-block;
+}
+
+.main-nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 400;
+    font-weight: 400;
+    color: #fff;
+    padding: 30px;
+    opacity: 0.5;
+    transition:0.3s;
+}
+.main-nav ul li:hover a {
+    opacity:1;
+}
+.header-area {
+    position: relative;
+    z-index: 1;
+}
+
+.header-area::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    content: "";
+    opacity: 0.2;
+}
+.hero-wrap {
+    height: 610px;
+}
+.hero-text {
+    max-width: 450px;
+    color: #fff;
+    padding: 125px 0;
+}
+
+
+.hero-text h2 {
+    font-size: 51px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.hero-text p {
+    opacity: 0.6;
+    margin-bottom: 54px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+img.mobile-screen {
+    position: absolute;
+    right: 78px;
+    bottom: -19px;
+    max-width: 31%;
+    margin-bottom: 2px;
+}
+a.borderd-btn {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 10px 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+a.underline-btn {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffff;
+    margin-left: 49px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+
+

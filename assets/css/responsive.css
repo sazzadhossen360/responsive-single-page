@@ -1,0 +1,98 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    img.mobile-screen {
+        position: absolute;
+        right: -20px;
+        /* bottom: 0; */
+        max-width: 30%;
+        margin-bottom: 2px;
+        top: 58px;
+    }
+    .hero-text h2 {
+        font-size: 22px;
+        font-weight: 300;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hero-wrap {
+        height: 409px;
+    }
+    .main-nav ul li a {
+        padding: 25px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .logo img {
+        max-width: 30px;
+        max-height: 42px;
+        margin-left: 50px;
+        margin-top: -40px;
+       
+        position: absolute;
+        top: 48px;
+        left: 0;
+    }
+    img.mobile-screen {
+        position: absolute;
+        right: 178px;
+        bottom: -224px;
+        max-width: 30%;
+        margin-bottom: 2px;
+    }
+    .main-nav ul li a {
+        font-weight: 400;
+        padding: 23px;
+        font-size: 14px;
+    }
+    .main-nav ul li a:first-child {
+        padding-left: 16px;
+    }
+    .hero-wrap {
+        text-align: center;
+        height: 721px;
+    }
+    .hero-text h2 {
+        font-size: 38px;
+       
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 480px) { 
+    
+    .hero-wrap {
+        height: 818px;
+    }
+    img.mobile-screen {
+        position: absolute;
+        right: 103px;
+        bottom: -19px;
+        max-width: 31%;
+        margin-bottom: -69px;
+    }
+}
